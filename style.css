@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+
+    height: 72.8px;
+}
+
+#nav-bar {
+
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-bottom: 0.8px solid rgb(212, 210, 208);
+}
+
+#indeed-img {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+#navbarSupportedContent {
+    height: 73.6;
+}
+
+.nav-links {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-links:hover {
+    border-bottom: 2px solid blue;
+}
+
+.msg-logo {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#button,
+#bell {
+    height: auto;
+    width: auto;
+}
+
+.user-i,
+.bell-i {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 21px;
+    padding-bottom: 9px;
+
+}
+
+.last-div-of-header {
+    border-left: 1px solid rgb(212, 210, 208);
+    margin-top: 27px;
+    width: 200px;
+    height: 47px;
+    padding-left: 26px;
+}
+
+.last-div-of-header:hover {
+    border-bottom: 2px solid blue;
+}
+
+.div-img {
+    padding-left: 22px;
+    padding-right: 42px;
+    padding-top: 25px;
+
+    width: 63.1px;
+    padding-bottom: 6px;
+    height: 73.6px;
+    cursor: pointer;
+}
+
+.div-img:hover {
+    border-bottom: 2px solid blue;
+
+}
+
+.header-button-div {
+    height: 73.6px;
+}
+
+.header-button-div:hover {
+    border-bottom: 2px solid blue;
+    transition: 0.1;
+}
+
+#container-for-jobSearch {
+    width: 1519.2px;
+    height: 51.6px;
+
+}
+
+#inputGroupSelect04 {
+    border-left: none;
+}
+
+.input-group {
+    height: 43.6px;
+    width: 388px;
+}
+
+.form-control {
+    height: 43.6px;
+    width: 388px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-input {
+    border: none;
+    outline: none;
+}
+
+#id-what {
+    outline: none;
+    border: none;
+}
+
+#i-lens,
+#i-location {
+    padding-right: 20px;
+}
+
+.what-flex {
+    display: flex;
+    align-items: center;
+    height: 50.6px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+
+.div-button {
+    border: none;
+    outline: none;
+}
+
+#middle-button {
+    background-color: rgb(37, 87, 167);
+    border: none;
+    color: white;
+    width: auto;
+    height: 43px;
+    font-size: .875rem;
+    font-weight: 700;
+    border-radius: 8px;
+    
+}
+
+.div-col {
+    width: 30.6%;
+    height: 43.6px;
+}
+
+#div-col {
+    width: 388px;
+}
+
+#div-col2 {
+    width: 388px;
+}
+
+#employers-post-a-job {
+    align-items: center;
+    justify-content: center;
+}
+
+#job-feed#Recent-Searche {
+
+    padding: 0;
+    cursor: pointer;
+}
+
+#div-job-feed {
+    height: 48px;
+    padding: 0;
+    margin-right: 50px;
+    width: auto;
+}
+
+#div-job-feed:hover {
+    border-bottom: 4px solid rgb(37, 87, 167);
+}
+
+#div-Recent-Searche {
+    height: 48px;
+    padding: 0;
+    margin-left: 50px;
+    width: auto;
+}
+
+#div-Recent-Searche:hover {
+    border-bottom: 4px solid rgb(37, 87, 167);
+}
+
+.list-span {
+    display: inline;
+}
+
+.list-span2 {
+    color: rgb(118, 118, 118);
+}
+
+.div-inside-list1 {
+    padding-right: 16px;
+
+}
+
+.div-inside-list3 {
+    padding-right: 141px;
+}
+
+.a-tag {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width:992px) {
+    .input-body{
+        width: 100% !important;
+    }
+}
